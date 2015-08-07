@@ -15,15 +15,12 @@ var circle_4 = svg_cc.circle(280, 420, 50).attr({fill: 'grey', stroke: 'white', 
 var line_5 = svg_cc.line(400, 230, 600, 20).attr({strokeWidth: 15, stroke: "white"});
 var circle_5 = svg_cc.circle(600, 20, 80).attr({fill: 'orange', stroke: 'white', strokeWidth: 15});
 
-// var circle_group = svg_cc.group(circle_1, circle_2, circle_3, circle_4, circle_5);
-
 
 var center_circle = svg_cc.circle(400, 230, 100).attr({fill: '#8AE65C', stroke: 'white', strokeWidth: 15});
 var center_text = svg_cc.text(335, 290, "💡").attr({'fill-opacity': 0, "font-size": "130px"});
 var expand_count = 0;
 var concentrate_count = 0;
 
-// animate_concentrate_center(circle_1, circle_1.getBBox().cx, circle_1.getBBox().cy, line_1);
 animate_concentrate(circle_1, circle_1.getBBox().cx, circle_1.getBBox().cy, line_1);
 animate_concentrate(circle_2, circle_2.getBBox().cx, circle_2.getBBox().cy, line_2);
 animate_concentrate(circle_3, circle_3.getBBox().cx, circle_3.getBBox().cy, line_3);
